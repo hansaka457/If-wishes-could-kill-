@@ -1,9 +1,9 @@
-name: girigo_prank
-description: Girigo prank app
+name: if_wishes_could_kill
+description: Flutter web deployment test
 publish_to: 'none'
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.3.0 <4.0.0'
 
 dependencies:
   flutter:
