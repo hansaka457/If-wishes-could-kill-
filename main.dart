@@ -13,10 +13,15 @@ class MyApp extends StatelessWidget {
       title: 'If Wishes Could Kill',
       debugShowCheckedModeBanner: false,
       home: const Scaffold(
+        backgroundColor: Colors.black,
         body: Center(
           child: Text(
-            'Site eka live welu! 🔥',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            'If Wishes Could Kill 🔥',
+            style: TextStyle(
+              fontSize: 28, 
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
           ),
         ),
       ),
